@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Site</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="menu" id="menu-container">
+        <div class="menu__btn" id="menu-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -53 384 384" width="30px">
+                <path
+                    d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
+                <path
+                    d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
+                <path
+                    d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
+            </svg>
+        </div>
+        <input type="checkbox" id="switch">
+        <div class="app">
+              <div class="content">
+                <label for="switch">
+                  <div class="toggle"></div>
+                </label>
+                
+              </div>
+              <div class="skip">
+              </div>
+            
+          <div class="credit">
+            <p>Inspired by CodePen.io</p>
+          </div>
+        </div>
+        <nav>
+            <a href="#main">Main</a>
+            <a href="#news">News</a>
+            <a href="#about">About Us</a>
+        </nav>
+        <div class="language">
+            <a onclick="showLanguages()" class="lang-drpdwn-btn">English</a>
+            <div class="dropdown-language">
+                <a href="/">English</a>
+                <a href="/se">Swedish</a>
+            </div>
+        </div>
+    </div>
+    <section class="slider-section">
+        <div class="main-slider">
+            <img class="slider-image" src="images/1.jpg">
+            <img class="slider-image" src="images/2.jpg">
+            <img class="slider-image" src="images/3.jpg">
+        </div>
+        <div class="centerred-text">
+            <a href="#" class="main-text-link">Travel With Us</a>
+        </div>
+        <section id="section01" class="demo">
+            <a href="#section02"><span></span>Scroll</a>
+        </section>
+    </section>
+
+    <div class="parallax" style="background-image: url('images/4.jpg')">
+        <div class="wrap">
+            <div class="card" style="background-image: url('images/1city.jpg')" data-aos="fade-left">
+                <div class="footer">
+                    <div class="content">
+                        <div class="title">New York</div>
+                        <div class="text">The city that never sleeps.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="background-image: url('images/2city.jpg')" data-aos="fade-right">
+                <div class="footer">
+                    <div class="content">
+                        <div class="title">Seattle</div>
+                        <div class="text">The Emerald City.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-container-bottom">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam maximus risus vel erat iaculis, eu
+                    sodales erat posuere. Nunc dignissim ut sapien at finibus. Phasellus mi nibh, semper at porta in,
+                    consectetur non ligula. Quisque pharetra vel velit non aliquam. Nunc eget suscipit nulla. Praesent
+                    maximus vulputate ornare. Proin vulputate in diam quis aliquet. Sed mollis massa ex, eget vulputate
+                    leo dapibus a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non eleifend leo, ac
+                    tristique nunc. Vestibulum a sollicitudin lorem. Vestibulum lacinia feugiat felis, sed consequat
+                    risus suscipit sit amet. Curabitur dignissim blandit augue, laoreet ullamcorper massa consectetur
+                    in. Suspendisse potenti. Cras ultricies quis lacus vel viverra. Sed a pulvinar erat.
+
+                    Duis congue vehicula elementum. Aenean molestie dolor mauris, vel lacinia eros cursus eu. Etiam
+                    iaculis sit amet felis ac tempus. Morbi tempus lorem quis elit pulvinar consectetur. Mauris iaculis
+                    sapien imperdiet consectetur viverra. Fusce at est pulvinar, laoreet leo sit amet, pellentesque
+                    ipsum. Suspendisse pharetra elit nisi, id elementum sem luctus ac. Pellentesque habitant morbi
+                    tristique senectus et netus et malesuada fames ac turpis egestas. Nam sed mauris vel nisi cursus
+                    malesuada. Nulla vel dui non ex porta blandit. Mauris gravida odio nec erat varius sodales.
+                    Phasellus.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="contact-us">
+        <div class="one">
+            <input type="text" id="flName" placeholder="Name" class="contact-us-form">
+            <input type="email" id="EMail" placeholder="E-Mail" class="contact-us-form">
+            <select class="contact-us-form-dropdown" id="sex">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            
+        </div>
+        <div class="two" style="background-image: url('images/2city.jpg')">
+        <div><h1 class="contact-us-header">Contact us!</h1></div>
+        <div><button id="contact-submit" class="contact-us-header-button"></button></div>
+        </div>
+      </div>
+    
+    <footer class="site-footer">
+
+        <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by Eugen</p>
+
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+</body>
+
+</html>
